@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.total_container{
+    width: 100%;
+    background-color: red;
+}
+/*-----------------------Child one------------------------------ */
+.child-one{
+    width: 25%;
+    background-color: aqua;
+    padding: 20px 0px;
+    float: left;
+}
+.child-child-one{
+    width: 70%;
+    background-color: brown;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+}
+.child-child-child-one{
+    width: 30%;
+    background-color: blue;
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+}
+.child-child-child-two{
+    width: 30%;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+/*-----------------------Child two------------------------------ */
+.child-two{
+    width: 25%;
+    background-color: red;
+    float: left;
+    padding: 20px 0px;
+}
+.child-child-one-two{
+    width: 70%;
+    background-color: brown;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+}
+.child-child-child-one-two{
+    width: 30%;
+    background-color: blue;
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+}
+.child-child-child-two-two{
+    width: 30%;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+/*-----------------------------child three-----------------------------*/
+.child-three{
+    width: 25%;
+    background-color: yellow;
+    float: left;
+    padding: 20px 0px;
+}
+.child-child-one-three{
+    width: 70%;
+    background-color: brown;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+}
+.child-child-child-one-three{
+    width: 30%;
+    background-color: blue;
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+}
+.child-child-child-two-three{
+    width: 30%;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+/*-----------------------Child four------------------------------ */
+.child-four{
+    width: 25%;
+    background-color: forestgreen;
+    float: left;
+    padding: 20px 0px;
+}
+.child-child-one-four{
+    width: 70%;
+    background-color: brown;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+}
+.child-child-child-one-four{
+    width: 30%;
+    background-color: blue;
+    float: left;
+    margin-left: 10px;
+    margin-right: 25px;
+    color: white;
+    text-align: center;
+}
+.child-child-child-two-four{
+    width: 30%;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+}
+/*------------------------------Task two ------------------------------*/
+.parent-container{
+    width: 100%;
+    background-color: blue;
+}
+/*------------------------------------child one -----------------------*/
+.parent-child-one{
+    width: 25%;
+    float: left;
+    background-color: yellowgreen;
+    padding: 30px 0px;
+}
+.parent-child-child-one{
+    background-color: red;
+    width: 60%;
+    margin: auto;
+    padding: 29px 0px;
+}
+/*-----------------------------------child two -----------------------*/
+.parent-child-two{
+    width: 75%;
+    background-color: yellowgreen;
+    float: left;
+    padding: 30px 0px 31px 0px;
+}
+.parent-child-child-two{
+    width: 90%;
+    background-color: red;
+    padding: 30px 0px 46px 0px;
+    margin: auto;
+}
+.task-two-child-one{
+    width: 25%;
+    float: left;
+}
+.task-two-child-two{
+    width: 25%;
+    float: left;
+}
+
+.task-two-child-three{
+    width: 25%;
+    float: left;
+}
+.task-two-child-four{
+    width: 25%;
+    float: left;
+}
+.summa{
+    width: 30%;
+    background-color: black;
+    margin: auto;
+}
+/*----------------------------Task three--------------------------------*/
+.task-three-parent{
+    width: 100%;
+    background-color: bisque;
+}
+/*-------------------------Child left----------------------------------*/
+.task-three-child-one{
+    width: 34%;
+    float: left;
+    background-color: red;
+    padding: 50px 0px;
+}
+.task-three-child-left{
+    width: 50%;
+    background-color: blue;
+    margin: auto;
+    padding: 20px 0px;
+}
+.task-three-child-first{
+    width: 50%;
+    background-color: pink;
+    margin: auto;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+.task-three-child-second{
+    width: 50%;
+    background-color: pink;
+    margin: auto;
+    padding: 10px 0px;
+    margin-top: 15px;
+}
+.task-three-child-three{
+    width: 34%;
+    float: right;
+    background-color: violet;
+    padding: 50px 0px;
+}
+/*-------------------------Child right----------------------------------*/
+.task-three-child-right{
+    width: 50%;
+    background-color: yellow;
+    margin: auto;
+    padding: 40px 0px 90px 40px;
+}
+.task-three-child-third{
+    width: 30%;
+    background-color: red;
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.task-three-child-four{
+    width: 30%;
+    background-color: pink;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
