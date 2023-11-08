@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    padding: 10px;
+}
+.head{
+    float: left;
+    padding: 20px;
+}
+.para{
+    float: right;
+    padding: 23px;
+    text-decoration: none;
+}
+.body{
+    width: 100%;
+    overflow: hidden;
+}
+.nav{
+    width: 25%;
+    background-color: greenyellow;
+    float: left;
+}
+.nav-item{
+    padding: 15px 0px 3px 18px;
+}
+.nav-item > h3{
+    padding: 15px 30px 15px 0px;
+}
+.list{
+    list-style: none;
+    padding: 10px 30px 10px 20px;
+}
+.lis{
+    padding: 2px 0px;
+}
+/*-------------------------------main cecter------------------------*/
+.main{
+    width: 50%;
+    background-color: red;
+    float: left;
+}
+.main-item{
+    width: 95%;
+    padding: 15px 30px 20px 15px;
+}
+.main-item > h3{
+    padding: 15px 10px 15px 10px;
+}
+.main-item > p{
+    line-height: 1.8;
+}
+/*---------------------------stuff right ------------------------*/
+.stuff{
+    width: 25%;
+    background-color: #147FA9;
+    float: right;
+}
+.stuff-item{
+    
+    padding: 15px;
+}
+.stuff-item > h4{
+    padding-bottom: 20px;
+}
+.stuff-item > h3{
+    padding: 0px 0px 20px 10    px;
+}
+.stuff-item-list > li{
+    line-height: 1.6;
+}
+.stuff-item-list{
+    padding-left: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+}
+.footer-item > p{
+    color: white;
+}
