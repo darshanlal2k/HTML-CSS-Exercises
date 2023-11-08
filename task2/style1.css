@@ -1,0 +1,39 @@
+.parent-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    background-color: red;
+    flex-direction: row-reverse;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.lal{
+    display: flex;
+    background-color: yellow;
+    /*flex-flow: column wrap;*/
+}
+.darshan{
+    display: flex;
+    background-color: darkblue;
+    color: white;
+}
+.child-1{
+    background-color: white;
+}
+.child-2{
+    background-color: yellow;
+}
+.child-3{
+    background-color: aquamarine;
+}
+.child-4{
+    background-color: bisque;
+}

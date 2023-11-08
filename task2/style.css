@@ -1,0 +1,38 @@
+.total-container{
+    margin: 0 auto;
+    width: 80%;
+}
+.total-child{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 50px;
+    /* display: flex; */
+}
+.nav{
+    margin-left: 100px;
+    display: flex;
+}
+.button{
+    margin-right: 100px;
+
+    /* display: flex; */
+}
+.arrow{
+    display: flex;
+    margin:  0 10px;
+    align-items: baseline;
+}
+.arrow .fa{
+    margin: 0 0 0 10px;
+
+}
+.button1{
+    background-color: #14b1bb;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
