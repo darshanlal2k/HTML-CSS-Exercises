@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    width: 100%;
+    background-color: red;
+    position: relative;
+    height: 250px;
+}
+.child-one{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    padding: 20px;
+    background-color: aqua;
+}
+.child-two{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    padding: 20px;
+    background-color: aqua;
+}
+.child-three{
+    position: absolute;
+    top: 170px;
+    left: 670px;
+    padding: 20px;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+/* -----------------------task two ---------------------*/
+.task-two-parent{
+    width: 100%;
+    background-color: red;
+    height: 250px;
+    position: relative;
+}
+.task-two-child-one{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background-color: yellow;
+    padding: 20px;
+}
+.task-two-child-two{
+    position: absolute;
+    top: 100px;
+    right: 750px;
+    background-color: yellow;
+    padding: 20px;
+}
+.task-two-child-three{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: yellow;
+    padding: 20px;
+}
+/* -----------------------task three ---------------------*/
+.task-three-parent{
+    width: 100%;
+    background-color: red;
+    height: 320px;
+    position: relative;
+}
+.task-three-child-one{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+.task-three-child-two{
+    position: absolute;
+    top: 150px;
+    left: 720px;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+.task-three-child-three{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+.task-three-child-four{
+    position: absolute;
+    padding: 20px;
+    bottom: 50px;
+    left: 250px;
+    background-color: deepskyblue;
+}
+.task-three-child-five{
+    position: absolute;
+    padding: 20px;
+    bottom: 50px;
+    right: 250px;
+    background-color: deepskyblue;
+}
+/* -----------------------task four ---------------------*/
+.task-four-parent{
+    width: 100%;
+    background-color: red;
+    height: 450px;
+    position: relative;
+}
+.task-four-child-one{
+    padding: 20px;
+    position: absolute;
+    background-color: aqua;
+    left: 725px;
+    top: 50px;
+}
+.task-four-child-two{
+    padding: 20px;
+    position: absolute;
+    background-color: aqua;
+    left: 725px;
+    top: 200px;
+
+}
+.task-four-child-three{
+    padding: 20px;
+    position: absolute;
+    background-color: aqua;
+    left: 725px;
+    bottom: 50px;
+}
+.task-four-child-four{
+    padding: 20px;
+    position: absolute;
+    background-color: aqua;
+    transform: translateX(-50%);
+    right: 45%;
+    transform: translateY(-50%);
+    top: 30%;
+}
