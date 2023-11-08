@@ -1,0 +1,1733 @@
+/*---------Section 1 HOME------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.part1 {
+    padding: 0px;
+    background-image: url("/img/banner-img.jpg");
+    background-size: 100% 100%;
+    height: 780px;
+    
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 25px 30px;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.header-nav{
+    width: 80%;
+    margin: 0 auto;
+}
+.titan {
+    width: 50%;
+    float: left;
+}
+
+.titan a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.subtitle {
+    width: 50%;
+    float: right;
+}
+
+.subtitle ul {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.subtitle ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0px 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.subtitle ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.subtitle li :hover {
+    color: white;
+}
+
+.hello {
+    padding: 150px 50px;
+}
+
+.hello h5 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.hello h2 {
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 24px;
+}
+
+.hello h6 {
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+
+.hello h6:hover {
+    background-color: white;
+    color: #000;
+}
+
+/*----------section 2 services--------*/
+.part2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.services {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.services h4 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.services p {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    padding: 50px 0px;
+    line-height: 1.8;
+    font-family: 'Volkhov', serif;
+}
+
+/*--------Imageset1---------*/
+.imgset1 {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.imgset1 img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.imgset1 p {
+    text-align: center;
+    font-size: 12px;
+    width: 85%;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 1.8;
+}
+
+.imgset1 h5 {
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0px;
+    letter-spacing: 2px;
+}
+
+.ideas {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.optimised {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.design {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.customize {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+/*-----Imageset 2-------*/
+.imgset2 {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.coding {
+    width: 25%;
+    float: left;
+}
+
+.pluging {
+    width: 25%;
+    float: left;
+}
+
+.responsive {
+    width: 25%;
+    float: left;
+}
+
+.support {
+    width: 25%;
+    float: left;
+}
+
+.imgset2 img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.imgset2 h5 {
+    text-align: center;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.imgset2 p {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 12px;
+    width: 85%;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*------------section 3--Presentation-----------------*/
+.vdopage {
+    width: 100%;
+    background-image: url(../img/alone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 100% 100%;
+}
+
+.vdocontent {
+    text-align: center;
+}
+
+.vdocontent img {
+    max-width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.vdocontent h2 {
+    padding: 20px 0px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 28px;
+}
+
+.vdopage p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+/*-----------------section 4------Our HEad---------------*/
+.workpart {
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.ourwork {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ourwork h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.workcontent {
+    display: inline-block;
+    padding: 40px 0px;
+}
+
+.workcontent ul li {
+    float: left;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.workcontent ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.workcontent li :hover {
+    color: rgb(0, 0, 0, 0.5);
+}
+
+
+/*---------------section 5-----Our WOrks--------------*/
+.works {
+    width: 100%;
+}
+
+.workone {
+    width: 100%;
+    overflow: hidden;
+}
+
+.workone img {
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/*----------main work -----*/
+.image {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: auto;
+    bottom: 30%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+.text h4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.text p a {
+    color: rgb(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.text p {
+    padding: 10px 0px;
+}
+
+/*-------work 1--------*/
+.work1 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work1:hover .image {
+    opacity: 0.3;
+}
+
+.work1:hover .middle1 {
+    opacity: 1;
+}
+
+/*---------work 2---------*/
+.work2 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work2:hover .image {
+    opacity: 0.3;
+}
+
+.work2:hover .middle1 {
+    opacity: 1;
+}
+
+/*------------work 3---------*/
+.work3 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work3:hover .image {
+    opacity: 0.3;
+}
+
+.work3:hover .middle1 {
+    opacity: 1;
+}
+
+/*-------------secont work part--------*/
+.worktwo {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+/*----------work 4----------*/
+.worktwo img {
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.work4 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work4:hover .image {
+    opacity: 0.3;
+}
+
+.work4:hover .middle1 {
+    opacity: 1;
+}
+
+/*------------------work 5-----------*/
+.work5 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work5:hover .image {
+    opacity: 0.3;
+}
+
+.work5:hover .middle1 {
+    opacity: 1;
+}
+
+/*---------------work 6-------------*/
+.work6 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.work6:hover .image {
+    opacity: 0.3;
+}
+
+.work6:hover .middle1 {
+    opacity: 1;
+}
+
+.work6 .text h4 a {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/*-------------section 6----More Works-----------*/
+.blackbox {
+    background-color: black;
+    padding: 75px 0px;
+    overflow: hidden;
+}
+
+.blkcontent {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.leftcnt {
+    width: 50%;
+    float: left;
+}
+
+.leftcnt h4 {
+    font-size: 16px;
+    padding: 5px 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.leftcnt p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.rightcnt {
+    width: 50%;
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.rightcnt a {
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid white;
+    padding: 8px 40px;
+    background-color: rgb(255, 255, 255, 0.75);
+    color: black;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+
+.rightcnt a:hover {
+    background-color: white;
+}
+
+
+/*--------------------section 7------------*/
+.ourfeatures {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10% 0px;
+}
+
+.feature {
+    width: 100%;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.feature p {
+    width: 48%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 30px 0px;
+    line-height: 2;
+    font-family: 'Volkhov', serif;
+}
+
+/*-----------side 1--------------*/
+.side1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.left img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.left h5 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.left p {
+    width: 90%;
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(0, 0, 0, 0.5);
+
+}
+
+/*--------------bandingcnt-------*/
+.img1 {
+    width: 30%;
+    float: left;
+
+}
+
+.left .bandingcnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.banding1 {
+    width: 70%;
+    float: left;
+}
+
+/*------developmentcnt----*/
+.left .developmentcnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img2 {
+    width: 30%;
+    float: left;
+
+}
+
+.development1 {
+    width: 70%;
+    float: left;
+}
+
+/*---------marketingcnt------*/
+.left .marketingcnt {
+    widows: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img3 {
+    width: 30%;
+    float: left;
+
+}
+
+.marketing1 {
+    width: 70%;
+    float: left;
+}
+
+/*-----------designcnt----------*/
+.left .designcnt {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    padding: 10px 0px;
+}
+
+.img4 {
+    width: 30%;
+    float: left;
+
+}
+
+.design1 {
+    width: 70%;
+    float: left;
+}
+
+/*----------middleimg------------*/
+.middleimg {
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.promoimg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*----------right 4 content-----------------*/
+.right {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0px 10px 15px;
+}
+
+.right img {
+    max-width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.right h5 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.right p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*----------photographycnt-----------*/
+.right .photographcnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img5 {
+    width: 30%;
+    float: left;
+}
+
+.photography {
+    width: 70%;
+    float: left;
+}
+
+/*-----mobilecnt----*/
+.right .mobilecnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img6 {
+    width: 30%;
+    float: left;
+}
+
+.mobile {
+    width: 70%;
+    float: left;
+}
+
+/*----------musiccnt--------*/
+.right .musiccnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img7 {
+    width: 30%;
+    float: left;
+}
+
+.music {
+    width: 70%;
+    float: left;
+}
+
+/*--------shopcnt-----*/
+.right .shopcnt {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+.img8 {
+    width: 30%;
+    float: left;
+}
+
+.shop {
+    width: 70%;
+    float: left;
+}
+
+/*--------------------section 8------------*/
+.meetteampart {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.meetteam {
+    text-align: center;
+}
+
+.meetteam h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.meetteam p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 50px 0px;
+    font-family: 'Volkhov', serif;
+}
+
+
+
+
+/*---------four img part-------*/
+.fourimgcnt {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+.jimstone {
+    width: 25%;
+    position: relative;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.image1 {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.jimcnt {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    top: 25%;
+    bottom: 25%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+
+.jimcnt p {
+    font-size: 14px;
+    padding: 8px 0px;
+    text-align: center;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+    font-family: 'Volkhov', serif;
+
+}
+
+.jimcnt h4 {
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.fourcnt {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fourcnt a {
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+}
+
+.fb svg {
+    fill: white;
+    height: 15px;
+}
+
+.tw svg {
+    fill: white;
+    height: 15px;
+}
+
+.ball img {
+    height: 15px;
+}
+
+.s img {
+    height: 15px;
+}
+
+.jimstone:hover .image1 {
+    opacity: 0.5;
+}
+
+.jimstone:hover .jimcnt {
+    opacity: 1;
+}
+
+
+/*----------andy image part--------------*/
+.andyriver {
+    width: 25%;
+    position: relative;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.image1 {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.andycnt {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+
+.andycnt h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.andycnt p {
+    font-size: 14px;
+    padding: 8px 0px;
+    text-align: center;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+    font-family: 'Volkhov', serif;
+}
+
+.andyriver:hover .image1 {
+    opacity: 0.5;
+}
+
+.andyriver:hover .andycnt {
+    opacity: 1;
+}
+
+/*--------------Adele snow part----------*/
+.adele {
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.image1 {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.adelecnt {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+
+.adelecnt h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.adelecnt p {
+    font-size: 14px;
+    padding: 8px 0px;
+    text-align: center;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+    font-family: 'Volkhov', serif;
+}
+
+.adele:hover .image1 {
+    opacity: 0.5;
+}
+
+.adele:hover .adelecnt {
+    opacity: 1;
+}
+
+/*----------dylan image part----------*/
+.dylan {
+    width: 25%;
+    float: left;
+    background-color: black;
+    position: relative;
+    opacity: 0.8;
+}
+
+.image1 {
+    opacity: 1;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.dylancnt {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    bottom: 25%;
+    left: 15%;
+    right: 15%;
+}
+
+.dylan h4 {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.dylan p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+    line-height: 1.8;
+    font-family: 'Volkhov', serif;
+}
+
+.dylan:hover .image1 {
+    opacity: 0.5;
+}
+
+.dylan:hover .dylancnt {
+    opacity: 1;
+}
+
+/*-------four content part---------*/
+.content4 {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.hiall {
+    width: 25%;
+    text-align: center;
+    padding: 20px 0px;
+    float: left;
+}
+
+.hiall h4 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.hiall p {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*--------------scorecard section---------*/
+.scoreboard {
+    width: 100%;
+    background-image: url(../img/leaf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0px;
+}
+
+.scoreboard img {
+    max-width: 100%;
+}
+
+.scoreboard1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0px;
+}
+
+.boardimg {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.scoreimg {
+    width: 25%;
+    float: left;
+}
+
+.scoreimg img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.scoreimg h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding: 15px 0px;
+    font-weight: 400;
+}
+
+.scoreimg p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Volkhov', serif;
+    font-weight: 400;
+}
+
+/*----------our prices-------------*/
+.ourpricesec {
+    width: 90%;
+    margin: 0 auto;
+    padding: 75px 0px;
+}
+
+.ourprice {
+    width: 100%;
+    text-align: center;
+}
+
+.ourprice h4 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.ourprice p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 30px 0px;
+    font-family: 'Volkhov', serif;
+}
+
+.nbrsec {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0px;
+    float: left;
+}
+
+/*----------part1----------*/
+.light {
+    width: 25%;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.light1 {
+    text-align: center;
+    border: 1px solid rgb(185, 185, 183);
+}
+
+.light1 h5 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px 0px;
+    letter-spacing: 2px;
+}
+
+.light1 hr {
+    border: 1px solid rgb(185, 185, 183);
+}
+
+.light1 ul>li {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 8px 0px;
+    color: rgb(0, 0, 0, 0.75);
+    list-style: none;
+}
+
+.light1 ul li>span {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: line-through;
+    color: rgb(0, 0, 0, 0.5);
+    list-style: none;
+}
+
+.light1 a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+    padding: 8px 35px;
+    margin: 20px 0px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.light1 h4 {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.light1 span {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.light1 h6 {
+    font-size: 10px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+/*----------------paragraph------------*/
+.paragraph p {
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.5);
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+    padding: 30px 0px;
+}
+
+/*---------latest bolg photos-----------*/
+.latestblog {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.latestcnt h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.latestcnt p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    padding: 40px 0px;
+    line-height: 1.8;
+}
+
+.markstone {
+    width: 100%;
+    padding-bottom: 0px;
+
+}
+
+.markstone1 {
+    width: 33.33%;
+    float: left;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.markstone img {
+    max-width: 100%;
+}
+
+.markstone1 hr {
+    border: 1px solid rgb(164, 163, 161);
+    margin: 10px 0px;
+    display: block;
+}
+
+.markstone1 h4 a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.markstone1 h4 a:hover {
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.markstone1 p a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.markstone1 p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.markstone1 p a:hover {
+    color: rgb(0, 0, 0, 0.5);
+    font-family: "Open Sans", sans-serif;
+    ;
+}
+
+hr {
+    margin: 10px 0px;
+    border: 1px solid rgb(0, 0, 0, 0.25);
+}
+
+.markstone1>a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding-top: 10px;
+    display: block;
+}
+
+
+/*---------------subsrribe-----------*/
+.subscribe {
+    width: 100%;
+    padding: 75px 0px;
+    background-color: black;
+}
+
+.subscribe1 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.subleft {
+    width: 50%;
+    float: left;
+}
+
+.subleft h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.subleft p {
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.5);
+    padding: 5px 0px;
+    letter-spacing: 2px;
+}
+
+.subright {
+    width: 50%;
+    float: right;
+    padding-top: 5px;
+}
+
+.subright input {
+    width: 80%;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.subright button {
+    width: 20%;
+    float: right;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+/*------------------------Get In Touch-----------------------*/
+.getintouch {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.getpart {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.getpart h3 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 25px 0px;
+    letter-spacing: 2px;
+}
+
+.getpart input {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px 0px;
+    border: 1px solid gray;
+    letter-spacing: 2px;
+}
+
+.getpart textarea {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 0px;
+    border: 1px solid gray;
+    letter-spacing: 2px;
+}
+
+.getpart button a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.getpart button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    background-color: black;
+}
+
+/*-----------Empty part-----------*/
+.emptypart {
+    background-color: paleturquoise;
+    width: 100%;
+    padding: 200px 0px;
+}
+
+/*-------------Footer part------------*/
+.footersection {
+    width: 100%;
+    background-color: black;
+}
+
+.footerpart {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0px 100px 0px;
+}
+
+.footer4cnt {
+    width: 100%;
+}
+
+.abouttitan {
+    width: 25%;
+    float: left;
+}
+
+.abouttitan h3 {
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.abouttitan h6 {
+    color: white;
+}
+
+.abouttitan p {
+    font-size: 12px;
+    width: 80%;
+    color: white;
+    line-height: 1.8;
+    padding: 10px 0px;
+}
+
+.abouttitan h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.abouttitan h5 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.abouttitan a:hover {
+    color: white;
+}
+
+/*-----------recent-------------*/
+.recent {
+    width: 25%;
+    float: left;
+}
+
+.recent h3 {
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.recent h6 {
+    color: white;
+}
+
+.recent p {
+    font-size: 12px;
+    width: 90%;
+    color: white;
+    line-height: 1.8;
+    padding: 7px 0px;
+}
+
+.recent p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.recent a:hover {
+    color: white;
+}
+
+/*-------------blog--------------*/
+.blog {
+    width: 25%;
+    float: left;
+}
+
+.blog h3 {
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.blog h6 {
+    color: white;
+}
+
+.blog p {
+    padding: 8px 0px;
+}
+
+.blog p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+/*-------------popular-------------*/
+.popular {
+    width: 25%;
+    float: left;
+}
+
+.popular h3 {
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.popular h6 {
+    color: white;
+}
+
+.imgpart1 {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.rp1 {
+    width: 35%;
+    float: left;
+}
+
+.rp11 {
+    width: 65%;
+    float: left;
+}
+
+.rp11 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.rp11 p {
+    font-size: 12px;
+    color: white;
+    padding: 10px 0px;
+}
+
+.imgpart2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.rp2 {
+    width: 35%;
+    float: left;
+}
+
+.rp22 {
+    width: 65%;
+    float: left;
+}
+
+.rp22 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.rp22 a:hover {
+    color: white;
+}
+
+.rp22 p {
+    color: white;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+/*-------------btmfooter-------*/
+.btmfooter {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.titan2017 {
+    width: 50%;
+    float: left;
+}
+
+.titan2017 p {
+    font-size: 12px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.titan2017 a {
+    color: rgb(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.titan2017 a:hover {
+    color: white;
+}
+
+.btmimg {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.btmimg a {
+    text-align: right;
+}
+
+.btmimg img {
+    max-width: 100%;
+    height: 15px;
+    padding: 0px 5px;
+}
+
+.footersection1 {
+    width: 100%;
+    background-color: black;
+}
+
+hr {
+    border: 1px solid #202020;
+    margin: 0;
+}
