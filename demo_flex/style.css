@@ -1,0 +1,38 @@
+.flex-container{
+    display: flex;
+}
+.flex-child{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+.flex-logo{
+    width: 20%;
+    float: left;
+}
+.flex-logo > img{
+    margin-top: 12%;
+}
+.nav{
+    width: 70%;
+    float: left;
+}
+.nav-list{
+    
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 4%;
+    font-size: 20px;
+}
+.button{
+    width: 10%;
+    float: right;
+}
+.button1{
+    width: 100%;
+    padding: 10%;
+    border-radius: 20%;
+}
