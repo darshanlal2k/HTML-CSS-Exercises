@@ -1,0 +1,1176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.total-container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*-------------------HEADER PART-----------------*/
+.header {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(249, 250, 253, 0.2);
+
+}
+.header-nav{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-left {
+    width: 30%;
+    float: left;
+}
+
+.header-right {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.header-left h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header-parent-one {
+    width: 75%;
+    float: left;
+}
+
+.header-parent-one ul li {
+    float: left;
+    list-style: none;
+    padding: 10px 20px 0px 20px;
+    margin: 0 10px;
+}
+
+.header-parent-one ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header-parent-one ul li a:hover {
+    color: orange;
+}
+
+.header-parent-two {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.signup {
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 0px;
+    display: block;
+    border-radius: 3px;
+}
+
+.signup a:hover {
+    background-color: black;
+    color: white;
+}
+
+.en {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.en .EN {
+    background: transparent;
+    border: none;
+}
+
+.en .EN:hover {
+    color: orange;
+}
+
+/*--------------section 2---------------*/
+.container-one {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.travelcnt {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.travel-parent-one{
+    width: 100%;
+    margin: 50px 0;
+}
+.travelcnt h3 {
+    font-size: 25px;
+    color: #DF6951;
+    font-weight: 900;
+}
+
+.travelcnt h1 {
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+}
+
+.travelcnt p {
+    color: #9597AC;
+    font-weight: 500;
+    width: 70%;
+}
+
+.travelimg {
+    width: 50%;
+    float: left;
+}
+
+.travelimg img {
+    max-width: 100%;
+}
+
+/*------------twobtn part----------*/
+.twobtn {
+    width: 70%;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.outmorebtn {
+    width: 50%;
+    float: left;
+}
+
+.playdemobtn {
+    width: 50%;
+    float: left;
+}
+
+.outmorebtn button {
+    background: transparent;
+    border: none;
+}
+
+.outmorebtn a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px 30px;
+    display: block;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.playdemobtn a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #DC6850;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.playdemobtn button {
+    background: transparent;
+    border: none;
+    display: block;
+    float: left;
+}
+
+.playdemobtn img {
+    border-radius: 100%;
+    height: 20px;
+}
+
+.playdemobtn span {
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E6282;
+}
+
+/*-------------container 3------------*/
+.best{
+    width: 100%;
+    margin: 50px 0;
+}
+/*--------category----------*/
+.category {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.category p {
+    font-weight: 600;
+    color: #5E6282;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.category h1 {
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+}
+
+/*-----------4 section image part-----*/
+.fourimg {
+    width: 100%;
+    overflow: hidden;
+    
+}
+.weather{
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.flights{
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.events{
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+
+.customize{
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+.fourimg h4 {
+    font-size: 18px;
+    width: 70%;
+    margin: 10px auto;
+    color: #181E4B;
+}
+
+.fourimg p {
+    width: 65%;
+    margin: 10px auto;
+    font-weight: 500;
+    color: #5E6282;
+}
+
+  
+
+/*-----------------container 4-----------*/
+/*-----------Top selling-----------*/
+.topselling {
+    text-align: center;
+}
+
+.topselling p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E6282;
+}
+
+.topselling h1 {
+    font-size: 38px;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+    padding: 5px 0px;
+}
+
+/*------------Image parts---------*/
+.destinationpart {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.rome {
+    width: 33.33%;
+    float: left;
+    padding-right: 20px;
+}
+
+.italty {
+
+    box-shadow: 0 0 10px rgb(185, 165, 126);
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.italty1 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 15px 15px;
+}
+
+.italty a>img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.romecnt {
+    width: 50%;
+    float: left;
+
+}
+
+.romecnt p {
+    text-decoration: none;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.romenbr {
+    width: 50%;
+    float: left;
+}
+
+.romenbr p {
+    float: right;
+    text-decoration: none;
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.italty a:hover .romecnt p {
+    color: orange;
+}
+
+.italty .tele {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 20px 15px;
+
+}
+
+.tele span {
+    display: inline-block;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+
+.italty .tele img {
+    max-width: 100%;
+    height: 15px;
+
+}
+
+/*-------------london uk--------------*/
+.london {
+    width: 33.33%;
+    float: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.uk {
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(185, 165, 126);
+    display: inline-block;
+}
+
+.uk1 {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 10px;
+}
+
+.ukcnt {
+    width: 50%;
+    float: left;
+}
+
+.ukcnt p {
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.uknbr {
+    width: 50%;
+    float: left;
+}
+
+.uknbr p {
+    float: right;
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.uk a>img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.uk a:hover .ukcnt p {
+    color: orange;
+}
+
+.uk .tele {
+    float: left;
+    padding: 0px 0px 20px 15px;
+}
+
+.uk .tele img {
+    max-width: 100%;
+    height: 15px;
+    padding-right: 10px;
+}
+
+/*---------------Europe part------------*/
+.europe {
+    width: 33.33%;
+    float: left;
+    padding-left: 20px;
+}
+
+.europe1 {
+    width: 100%;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 0 10px rgb(185, 165, 126);
+    background-color: white;
+    display: inline-block;
+}
+
+.europe1 a img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.europe2 {
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 10px;
+}
+
+.europe1cnt {
+    width: 50%;
+    float: left;
+}
+
+.europe1cnt p {
+    text-decoration: none;
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.europe1nbr {
+    width: 50%;
+    float: left;
+}
+
+.europe1nbr p {
+    text-decoration: none;
+    color: #5E6282;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+}
+
+.europe1 a:hover .europe1cnt p {
+    color: orange;
+}
+
+.europe1 .tele {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 15px 10px;
+}
+
+.europe1 .tele img {
+    max-width: 100%;
+    height: 15px;
+}
+
+.tele span {
+    text-align: left;
+}
+
+/*----------------container 5-----------------*/
+/*-----------east and fast-------------*/
+.easyandfast {
+    padding: 75px 0px;
+    display: inline-block;
+}
+
+.easystep {
+    width: 50%;
+    float: left;
+}
+
+.easystep h4 {
+    font-size: 18px;
+    color: #5E6282;
+}
+
+.easystep h1 {
+    font-size: 42px;
+    font-family: 'Volkhov', serif;
+    color: #181E4B;
+}
+
+.destination {
+    width: 100%;
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+.destimg {
+    width: 15%;
+    float: left;
+    background-color: orange;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.destimg svg {
+    vertical-align: middle;
+}
+
+.destcnt {
+    width: 85%;
+    float: left;
+    padding-left: 30px;
+}
+
+.easystep h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5E6282;
+}
+
+.easystep p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9597AC;
+}
+
+/*---------------Make payment--------*/
+.payment {
+    width: 100%;
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+.payimg {
+    width: 15%;
+    float: left;
+    background-color: #DC6850;
+    padding: 15px 0px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.paycnt {
+    width: 85%;
+    float: left;
+    padding-left: 30px;
+}
+
+.payimg svg {
+    vertical-align: middle;
+}
+
+/*-------------Reach airport------------*/
+.date {
+    width: 100%;
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+.dateimg {
+    width: 15%;
+    float: left;
+    background-color: #006380;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 15px;
+}
+
+.datecnt {
+    width: 85%;
+    float: left;
+    padding-left: 30px;
+}
+
+.datecnt p {
+    width: 85%;
+}
+
+/*----------Right side image part-----------*/
+.booking {
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.greece1 {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 15px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(224, 219, 209);
+}
+
+.greece img {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.greece h4 {
+    font-size: 20px;
+    color: #181E4B;
+    padding: 15px 0px 10px 0px;
+}
+
+.greece p {
+    font-size: 14px;
+    color: #5E6282;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+/*----------image part-----------*/
+.imagepart {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.leaf {
+    width: 20%;
+    float: left;
+
+}
+
+.leaf img {
+    padding: 10px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #dfe0e9;
+
+}
+
+.map {
+    width: 20%;
+    float: left;
+}
+
+.map img {
+    padding: 10px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #dfe0e9;
+}
+
+.imagepart .tele {
+    width: 20%;
+    float: left;
+
+}
+
+.imagepart .tele img {
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #dfe0e9;
+}
+
+/*-----------people going---------*/
+.people {
+    width: 100%;
+    overflow: hidden;
+}
+
+.peoplecnt {
+    width: 55%;
+    float: left;
+}
+
+.peoplecnt img {
+    height: 25px;
+    padding-right: 15px;
+}
+
+.peoplecnt span {
+    font-size: 14px;
+    color: #5E6282;
+    font-weight: 500;
+}
+
+.peopleimg {
+    width: 45%;
+    float: left;
+}
+
+.peopleimg img {
+    float: right;
+}
+
+.popup {
+    width: 250px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgb(185, 165, 126);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 999;
+    right: 16px;
+    top: 180px;
+    display: none;
+    background-color: white;
+}
+
+.peopleimg:hover .popup {
+    display: block;
+}
+
+.ongoing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.popupimg {
+    width: 25%;
+    float: left;
+}
+
+.popupimg img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.popupcnt {
+    width: 75%;
+    float: left;
+    padding-left: 10px;
+}
+
+.popupcnt p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #5E6282;
+}
+
+.popupcnt>h4 {
+
+    font-size: 18px;
+    color: #181E4B;
+}
+
+.popupcnt h5 {
+    font-size: 14px;
+
+}
+
+.venkat {
+    width: 75%;
+}
+
+/*--------------Container 7-----------------*/
+.fiveimg {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.axon {
+    width: 20%;
+    float: left;
+}
+
+.axon img {
+    height: 40px;
+}
+
+.jet {
+    width: 20%;
+    float: left;
+}
+
+.jet img {
+    height: 30px;
+}
+
+.expedia {
+    width: 20%;
+    float: left;
+}
+
+.expedia img {
+    height: 40px;
+}
+
+.qantas {
+    width: 20%;
+    float: left;
+}
+
+.qantas img {
+    height: 30px;
+}
+
+.allitalia {
+    width: 20%;
+    float: left;
+}
+
+.allitalia img {
+    height: 25px;
+}
+
+/*--------------container 8--------------*/
+.subscribe {
+    width: 100%;
+
+}
+
+.subcnt {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.subcnt p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.8;
+    text-align: center;
+    color: #5E6282;
+}
+
+.subbox {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 10px;
+}
+
+.mail {
+    width: 50%;
+    float: left;
+}
+
+.mail input {
+    padding: 15px 0px 15px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 3px solid lightpink;
+}
+
+::placeholder {
+    color: #181E4B;
+}
+
+.subscr {
+    width: 50%;
+    float: left;
+}
+
+.subscr button {
+    float: right;
+    padding: 15px 40px;
+    background-color: #DF6951;
+    border-radius: 15px;
+    border: 1px solid #DC6850;
+    font-size: 14px;
+    color: white;
+}
+
+/*------------container 9--------------*/
+.jadoopart {
+    width: 100%;
+    overflow: hidden;
+}
+
+.jadoo {
+    width: 25%;
+    float: left;
+}
+
+.jadoo h2 {
+    font-size: 40px;
+    color: #181E4B;
+}
+
+.jadoo p {
+    width: 90%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5E6282;
+    padding-top: 10px;
+}
+
+.inform {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.inform p {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.inform a {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6282;
+    line-height: 1.8;
+}
+
+.inform a:hover {
+    color: orange;
+}
+
+.company {
+    width: 33.33%;
+    float: left;
+}
+
+.contact {
+    width: 33.33%;
+    float: left;
+}
+
+.more {
+    width: 33.33%;
+    float: left;
+}
+
+.discover {
+    width: 25%;
+    float: left;
+}
+
+.discover .img3 {
+    width: 100%;
+    text-align: left;
+
+}
+
+.f1 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.f svg {
+    float: left;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(224, 219, 209);
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.f svg:hover {
+    background-color: #3C5A99;
+    fill: white;
+}
+
+.ins1 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.ins svg {
+    float: left;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(224, 219, 209);
+    border-radius: 50%;
+
+}
+
+.ins svg:hover {
+    background-image: linear-gradient(240deg, rgb(188, 70, 148), orange, skyblue);
+    fill: white;
+}
+
+.tw {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.tw svg {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(224, 219, 209);
+    border-radius: 50%;
+}
+
+.tw svg:hover {
+    background-color: #1DA1F2;
+    fill: white;
+}
+
+/*----------------btn section--------*/
+.discover>p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5E6282;
+    padding: 15px 0px 10px 10px;
+}
+
+.btnsec {
+    width: 100%;
+    overflow: hidden;
+}
+
+.getinonsec {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.getinonsec .gpayimg {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.getinonsec .gpayimg img {
+    height: 25px;
+    float: right;
+}
+
+.gpaycnt {
+    width: 75%;
+    float: left;
+    padding-left: 5px;
+}
+
+.gpaycnt h4 {
+    font-size: 8px;
+    color: white;
+    font-weight: 700;
+}
+
+.gpaycnt p {
+    color: #5E6282;
+    font-size: 8px;
+}
+
+.getinonsec .gpayimg img {
+    height: 20px;
+}
+
+.applesec {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.appimg {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.appimg img {
+    height: 25px;
+    padding-top: 5px;
+}
+
+.appcnt {
+    width: 70%;
+    float: left;
+}
+
+.appcnt p {
+    font-size: 6px;
+    color: white;
+}
+
+.appcnt h4 {
+    font-size: 10px;
+    color: white;
+}
+
+/*--------Footer part-------------*/
+.footer {
+    width: 100%;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5E6282;
+    text-align: center;
+    padding: 50px 0px;
+}
