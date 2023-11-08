@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*
+    <!------------------header----------------------------------->*/
+header {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.header-parent {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 5px 0px;
+
+}
+
+.header-child-one {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.header-child-one>p {
+    font-size: 20px;
+}
+
+.header-child-two {
+    margin-right: 50px;
+}
+
+.header-button {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+/*<!------------------banner-image----------------------------------->*/
+
+.banner-image{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    padding: 180px 0px;
+}
+
+.banner-parent{
+    display: flex;
+    flex-direction: column; 
+    background-color: yellow;
+}
+
+.banner-title{
+    display: flex;
+    width: 60%;
+    background-color: #0d6efd;
+    margin: 20px auto;
+}
+.banner-head{
+    font-size: 45px;
+    color: white;
+}
+
+.banner-button{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px 0px 20px 0px;
+}
+
+.banner-email{
+    padding: 20px 200px 20px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 150px;
+    border: none;
+}
+
+.banner-button-submit{
+    padding: 20px 30px 20px 30px ;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color:white;
+    font-size: 18px;
+    margin-right: 150px;
+    border: none;
+}
