@@ -1,0 +1,438 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------header---------------------------*/
+.header {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.header-container {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-logo {
+    float: left;
+    padding: 10px 20px 10px 10px;
+    margin-top: 11px;
+}
+
+.signup-button {
+    float: right;
+    padding: 15px 20px;
+    background-color: #0b5ed7;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.btn {
+    padding: 10px;
+}
+
+/*-----------------------------banner section------------------------*/
+.banner {
+    width: 100%;
+}
+
+.banner-img {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    padding: 220px;
+    background-repeat: no-repeat;
+}
+
+.banner-caption {
+    width: 40%;
+    margin: auto;
+    color: white;
+    font-size: 35px;
+}
+
+.banner-buttons {
+    padding: 20px 0px 0px 300px;
+}
+
+.banner-email-btn {
+    padding: 15px 190px 15px 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+.banner-submit-btn {
+    padding: 15px 20px 15px 20px;
+    margin-left: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    border: none;
+}
+
+/*--------------------------------caption------------------------------*/
+.caption {
+    background-color: whitesmoke;
+}
+
+.caption-container {
+    width: 100%;
+}
+
+.caption-content {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.cap-res {
+    width: 33.33%;
+    float: left;
+    padding: 40px 100px 40px 60px;
+}
+
+.cap-res>h1 {
+    padding: 15px 0px;
+}
+
+.cap-res>p {
+    line-height: 1.6;
+}
+
+.cap-ready {
+    width: 33.33%;
+    float: left;
+    padding: 40px 90px 40px 60px;
+}
+
+.cap-ready>h1 {
+    padding: 15px 0px;
+}
+
+.cap-ready>p {
+    line-height: 1.6;
+}
+
+.cap-easy {
+    width: 33.33%;
+    float: left;
+    padding: 40px 100px 40px 60px;
+}
+
+.cap-easy>p {
+    line-height: 1.6;
+}
+
+.cap-easy>h1 {
+    padding: 15px 0px;
+}
+
+/*-----------------------------section-------------------------------*/
+.section-container {
+    width: 100%;
+}
+
+.section-content {
+    width: 50%;
+    float: left;
+    padding: 86px;
+    background-color: white;
+}
+
+.section-item {
+    width: 95%;
+    margin: 65px auto;
+}
+
+.section-head {
+    padding: 25px;
+    font-size: 30px;
+}
+
+.section-para {
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.section-image {
+    width: 50%;
+    float: right;
+
+}
+
+.apple-img {
+    width: 100%;
+}
+
+/*-----------------------second section-------------------------------*/
+.second-section-container {
+    width: 100%;
+}
+
+.second-section-child-one {
+    width: 50%;
+    float: left;
+}
+
+.js-img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.second-section-child-two {
+    width: 50%;
+    float: right;
+    padding: 78px 0px;
+}
+
+.child-item-one {
+    width: 70%;
+    margin: 80px auto;
+}
+
+.child-item-one>h1 {
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+.child-item-one>p {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 13px 0px;
+}
+
+/*-----------------------third section-------------------------------*/
+
+.third-section-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.third-section-child-one {
+    width: 50%;
+    float: left;
+    padding: 92px 0px;
+}
+
+.third-child-item-one {
+    width: 55%;
+    margin: 91px auto;
+}
+
+.third-child-item-one>h1 {
+    padding: 10px;
+}
+
+.third-child-item-one>p {
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.third-section-child-two {
+    width: 50%;
+    float: right;
+}
+
+.laptop-image {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/*--------------------------caption section---------------------------------*/
+.cap-asdf-container {
+    width: 100%;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.cap-new-parent {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.cap-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.cap-images {
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.cap-image-one {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cap-image-one>h2 {
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.test-one {
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.cap-image-two {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.cap-image-two>h2 {
+    padding: 10px;
+}
+
+.cap-image-two>p {
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.test-two {
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.cap-image-three {
+    float: right;
+    width: 33.33%;
+    text-align: center;
+}
+
+.test-three {
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.cap-image-three>h2 {
+    padding: 10px;
+}
+
+.cap-image-three>p {
+    width: 80%;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+/*-------------------------detailing segment----------------------*/
+.banner-image-email {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.banner-email-child {
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.banner-email-head {
+    padding: 23px;
+    text-align: center;
+    color: white;
+}
+
+.banner-email-button {
+    padding: 20px 340px 20px 20px;
+    float: left;
+    margin-left: 220px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.banner-email-submit {
+    padding: 24px 20px 24px 20px;
+    float: left;
+    margin-left: 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/*---------------------------------footer-------------------------*/
+.footer-container{
+    width: 100%;
+}
+
+.footer-parent{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-child-one{
+    width: 40%;
+    float: left;
+    padding: 40px 0px;
+    margin-top: 40px;
+}
+
+.copyright-footer{
+    padding: 5px 0px;
+}
+
+.footer-child-list{
+    overflow: hidden;
+}
+.footer-child-list > li{
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-child-list > li:nth-child(1){
+    list-style: none;
+}
+
+.footer-child-list > li > a{
+    color: #0a58ca;
+}
+.footer-para{
+    padding: 5px 0px;
+}
+
+
+.socialmedia-logos{
+    float: right;
+    padding: 40px 0px;
+    width: 50%;
+    margin:45px 40px 35px 0px;
+}
+
+.media-logo{
+    float: right;
+}
+
+.facebook-image{
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.fa{
+    color:#1DA1F2;
+    margin: 0px 10px;
+}
+.fa::before{
+    font-size: 35px;
+}
