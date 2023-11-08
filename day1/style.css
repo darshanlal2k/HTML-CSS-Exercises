@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+}
+.header_parent{
+    width: 100%;
+    background-color: red;
+    display: inline-block;
+}
+.header_child{
+    width: 70%;
+    margin:auto;
+}
+/*-----------------------------------------header logo-------------------------------------------------------*/
+.header_child_column_one{
+    width: 15%;
+    float: left;
+    margin: auto
+}
+/*-----------------------------------------header list-------------------------------------------------------*/
+.header_child_column_two{
+    width: 70%;
+    float: left;
+}
+.header_child_column_two ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 0 15px 35px;
+    color: white;
+}
+/*-----------------------------------------header button-------------------------------------------------------*/
+.header_child_column_three{
+    width: 10%;
+    float: left;
+}
+.header_child_column_three button{
+    width: 140%;
+    margin: 15px 0 0 15px;
+}
+/*-----------------------------------------Banner Parent-------------------------------------------------------*/
+.banner_parent{
+    width: 100%;
+    background-color: blue;
+    display: inline-block;
+}
+/*-----------------------------------------Banner Child-------------------------------------------------------*/
+.banner_child{
+    width: 70%;
+    margin: auto;
+}
+/*-----------------------------------------Banner Left-------------------------------------------------------*/
+.banner_left{
+    width: 40%;
+    background-color: red;
+    float: left;
+}
+/*-----------------------------------------Banner left head-------------------------------------------------------*/
+.banner_left h1{
+    color: white;
+    margin: 25% 0% 25% 0%;
+    font-size: 40px;
+}
+/*-----------------------------------------Banner left para-------------------------------------------------------*/
+.banner_left p{
+    margin: 14% 1% 14% 1%;
+    color: white;
+    font-size: large;
+}
+/*-----------------------------------------Banner left button-------------------------------------------------------*/
+.banner_left_button_one{
+    background-color: white;
+    color: blue;
+    padding: 3% 8% 3% 8%;
+    margin: 7% 2% 16% 13%;
+    border-radius: 5px;
+}
+/*-----------------------------------------Banner left button-------------------------------------------------------*/
+.banner_left_button_two{
+    background-color: blue;
+    color: white;
+    padding: 3% 8% 3% 8%;
+    margin: 7% 3% 16% 3%;
+    border-radius: 5px;
+}
+/*-----------------------------------------Banner Right-------------------------------------------------------*/
+.banner_right{
+    width: 60%;
+    float: right;
+    background-color: red;
+}
+/*-----------------------------------------Section-------------------------------------------------------*/
+.section{
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+}
+/*-----------------------------------------Section center-------------------------------------------------------*/
+.section_center{
+    width: 70%;
+    margin: auto;
+}
+/*-----------------------------------------section center head 1-------------------------------------------------------*/
+.section_center h6{
+    text-align: center;
+    color: orange;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+/*-----------------------------------------section center head 2-------------------------------------------------------*/
+.section_center h1{
+    text-align: center;
+    color: black;
+}
+/*-----------------------------------------content parent-------------------------------------------------------*/
+.content_parent{
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+}
+/*-----------------------------------------content child-------------------------------------------------------*/
+.content_child{
+    width: 70%;
+    margin: auto;
+}
+/*-----------------------------------------content child one-------------------------------------------------------*/
+.content_child_one{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_one img{
+
+}
+.content_child_one h3{
+
+}
+.content_child_one p{
+
+}
+.content_child_one h4{
+
+}
+/*-----------------------------------------content child two-------------------------------------------------------*/
+.content_child_two{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_two img{
+
+}
+.content_child_two h3{
+
+}
+.content_child_two p{
+
+}
+.content_child_two h4{
+    
+}
+/*-----------------------------------------content child three-------------------------------------------------------*/
+.content_child_three{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_three img{
+
+}
+.content_child_three h3{
+
+}
+.content_child_three p{
+
+}
+.content_child_three h4{
+    
+}
+/*-----------------------------------------content child four-------------------------------------------------------*/
+.content_child_four{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_four img{
+
+}
+.content_child_four h3{
+
+}
+.content_child_four p{
+
+}
+.content_child_four h4{
+    
+}
+/*-----------------------------------------content child five-------------------------------------------------------*/
+.content_child_five{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_five img{
+
+}
+.content_child_five h3{
+
+}
+.content_child_five p{
+
+}
+.content_child_five h4{
+    
+}
+/*-----------------------------------------content child six-------------------------------------------------------*/
+.content_child_six{
+    width: 33%;
+    float: left;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px gray;
+    padding: 1%;
+}
+.content_child_six img{
+
+}
+.content_child_six h3{
+
+}
+.content_child_six p{
+
+}
+.content_child_six h4{
+    
+}
+.section_parent{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.section_child{
+    width: 80%;
+    margin: auto;
+    padding: 2% 0% 2% 0%;
+}
+.section_child_one{
+    width: 50%;
+    float: left;
+    margin: auto;
+    
+}
+.section_child_two{
+    width: 50%;
+    float: left;
+}
