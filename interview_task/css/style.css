@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header-title{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.header-title > h2{
+    
+}
+
+.header-nav{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.header-list-items > li{
+    display: inline-block;
+    padding: 20px;  
+}
+
+.header-images{
+    width: 10%;
+    padding: 15px 0px 15px 50px;
+}
+
+.search-images{
+    width: 3%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.section{
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.section-container-one{
+    width: 33.33%;
+    float: left;
+    background-color: #ffa089;
+    padding: 20px 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.section-child-one{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-child-one-head{
+    padding: 10px 0px;
+}
+.section-div-image{
+    text-align: center;
+}
+.guar-icon{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.section-content-one{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-content-two{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-container-two{
+    width: 33.33%;
+    float: left;
+    padding: 20px 0px;
+}
+.sectin-content-head-two{
+    padding: 10px 0px;
+}
+
+.section-container-three{
+    width: 33.33%;
+    float: left;
+    padding: 20px 0px;
+}
+
+.section-content-three{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-content-details{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+.section-stat-title{
+    text-align: center;
+}
+
+.section-stat{
+    width: 100%;
+    background-color: aqua;
+}
+
+.section-main{
+    width: 70%;
+    background-color: black;
+    margin: 0 auto;
+}
+.parent{
+    width: 33.33%;
+    color: white;
+}
+
