@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*------------------Header------------*/
+header{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.header-head{
+    color: white;
+    float: left;
+    padding: 15px;
+}
+
+.header-nav{
+    float: right;
+    padding: 15px;
+}
+.header-nav > h4{
+    color: #ce1b28;
+}
+/*------------------banner------------*/
+.banner-vid{
+    
+    
+}
